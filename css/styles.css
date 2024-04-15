@@ -1,0 +1,180 @@
+/* 
+Color Palette
+
+#274060  blue (main color)
+#BCAA96
+#222222
+#D3D4D6
+#F6F6F6  off white
+*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background: #F6F6F6;
+    margin: 0px;
+    font-family: 'lato', sans-serif;
+
+}
+
+h1, h2,h3{
+    font-family: "Playball", cursive;
+    font-weight: 420;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+
+a{
+    color: #274060;
+
+}
+
+a:hover{
+    color:#BCAA96 ;
+    text-decoration-line: none;
+}
+
+.btn{
+    background-color:#274060;
+    color: #D3D4D6;
+    max-width: 900px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    font-weight: 450;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+/*-----Home---------------------------------------------------------------*/
+.home{
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-bg{
+    background: rgb(255 255 255 / 0.9);
+}
+
+
+ .home .content-wrapper{
+     flex: 1 0 auto;
+}
+    
+
+/*-----Resume---------------------------------------------------------------*/
+.resume header::before{
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 400px;
+}
+
+.resume-section{
+    margin-bottom: 50px;
+}
+
+.resume-section h2{
+    border-bottom: 2px dashed #D3D4D6;
+}
+.btn{
+    color: #D3D4D6;
+    background-color: #274060;
+    text-decoration: none;
+}
+
+.download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+}
+
+
+/*-----Profile---------------------------------------------------------------*/
+
+/*-----Projects---------------------------------------------------------------*/
+.project_item{
+    display: flow-root;
+    margin: 20px 0;
+
+}
+
+.project_item img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+
+
+}
+
+/*-----Work Experience---------------------------------------------------------------*/
+
+.work-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 20px;
+}
+
+
+
+
+/*-----Education---------------------------------------------------------------*/
+
+/*-----Footer---------------------------------------------------------------*/
+footer{
+    background:#222222 ;
+    color: #BCAA96;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li{
+    display: inline-block;
+    margin-left: 10ox;
+}
+
+.socials img{
+    width: 32px;
+}
+
+.socials img:hover{
+    opacity: .5 ;
+}
