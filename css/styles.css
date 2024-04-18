@@ -121,21 +121,55 @@ a:hover{
     padding: 5px;
 }
 
+@media screen and (max-width: 641px) {
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 1.1rem;
+    }
+} 
+
 
 /*-----Profile---------------------------------------------------------------*/
 
 /*-----Projects---------------------------------------------------------------*/
 .project_item{
-    display: flow-root;
     margin: 20px 0;
 
 }
 
 .project_item img{
     width: 300px;
-    float: left;
-    margin-right: 20px;
+    
+}
 
+@media screen and (min-width: 860px) {
+    .project_item{
+        display: flow-root;
+    }
+
+    .project_item img{
+        
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (min-width:650px) and (max-width: 859px) {
+    .project-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .project_item img{
+        width: 50%;
+        
+    }
 
 }
 
