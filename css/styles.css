@@ -213,10 +213,15 @@ footer{
     opacity: .5 ;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (max-width: 860px) {
+
     footer{
+        padding: 0px;
+        display: grid;
+        grid-template-rows:100px, auto;
         text-align: center;
-        padding: 10px;
+        justify-content: space-evenly;
+        
     }
     
 }
