@@ -121,7 +121,7 @@ a:hover{
 }
 
 .resume header::before{
-    background: url(../images/bg-home-office-studio.jpg) center;
+    background: url(/images/images/resume-page-image.jpg) center;
     background-size: cover;
     content: "";
     display: block;
@@ -201,6 +201,46 @@ a:hover{
     }
 
 }
+
+/*------------------------- Services------------------------------------------------------ */
+.container{
+    display: inline-block;
+    background-color:#BCAA96;
+    border-radius: 5px;
+    position: relative;
+    padding:20px;
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+    color: #F6F6F6;
+}
+
+.container h3{
+    font-weight: 400;
+}
+
+.container .fa-solid{
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+
+.container button{
+    position: absolute;
+    bottom: 20px; 
+    left: 23%;
+    transform: translateX(-50%); 
+    padding: 10px 20px; 
+    background-color:#BCAA96;
+    color: white;
+    border: solid; 
+    border-radius: 20px; 
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.button_div{
+
+}
+
 
 /*-----Work Experience---------------------------------------------------------------*/
 

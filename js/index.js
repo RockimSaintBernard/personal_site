@@ -11,7 +11,7 @@ function convertHTMLtoPDF() {
         x: 12,
         y: 12
     }); 
-} 
+}
 
 const form = document.getElementById("form");
 const firstName = document.getElementById("firstName");
