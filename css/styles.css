@@ -224,6 +224,11 @@ footer{
     padding: 0 10px;
 }
 
+footer a{
+    color:#BCAA96;
+    text-decoration: none;
+}
+
 .socials{
     list-style-type: none;
     padding: 0;
