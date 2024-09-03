@@ -122,7 +122,7 @@ a:hover{
 }
 
 .resume header::before{
-    background: url(./images/images/resume-page-image.jpg) center;
+    background: url(../images/images/resume-page-image.jpg) center;
     background-size: cover;
     content: "";
     display: block;
