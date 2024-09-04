@@ -78,7 +78,7 @@ a:hover{
 
 /*-----Home---------------------------------------------------------------*/
 .home{
-    background: url(../images/bg-coffee-shop.jpg) no-repeat;
+    background: url(../images/images/resume-page-image.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
